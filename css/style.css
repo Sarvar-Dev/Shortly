@@ -222,6 +222,7 @@ opacity: 0.6;
     color:var(--main-color);
 }
 .hero__text {
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 40px;
     font-size: 22px;
@@ -240,6 +241,7 @@ opacity: 0.6;
 .url-shortener__form {
     padding: 48px 64px;
     border-radius:10px;
+    margin-bottom: 24px;
     background-color:#4b3f6b;
     background-image:url("../img/purple-bg.svg");
     background-repeat:no-repeat;
@@ -259,6 +261,7 @@ opacity: 0.6;
     display: block;
     width: 100%;
     padding: 14px 32px;
+    font-weight: 500;
     border: 3px solid transparent;
     border-radius:10px;
     font-size:20px;
@@ -285,4 +288,38 @@ opacity: 0.6;
     color:var(--error-color);
     letter-spacing: 0.11px;
 
+}
+
+.url-shortener__results {
+    font-size: 20px;
+    line-height: 36px;
+}
+.url-shortener__result {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius:5px;
+    background-color:#fff;
+    color:var(--main-color);
+}
+.url-shortener__result:not(:last-child){
+    margin-bottom: 16px;
+}
+.url-shortener__original-link {
+    width: 100%;
+    margin-right: 24px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.url-shortener__short-link {
+    font-weight: 500;
+    margin-right: 24px;
+    color:var(--ligth-green);
+    text-decoration: none;
+}
+.url-shortener__copy-button{
+    min-width: 103px;
 }
