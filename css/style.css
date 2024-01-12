@@ -363,6 +363,7 @@ opacity: 0.6;
     color:var(--main-color);
     margin-top: 0;
     margin-bottom: 18px;
+    text-transform: capitalize;
 }
 .index-features__top-info {
     font-size:18px;
@@ -403,6 +404,7 @@ opacity: 0.6;
 .index-features__item:nth-child(3){
     margin-top:88px;
 }
+/* INDEX FEATURE */
 .index-feature {
     position: relative;
     padding: 77px 32px 40px;
@@ -425,7 +427,8 @@ opacity: 0.6;
     margin-bottom: 12px;
     font-size: 22px;
     line-height: normal;
-    color:var(--main-color);    
+    color:var(--main-color);
+    text-transform: capitalize;    
 }
 .index-feature__info {
     margin:0;
